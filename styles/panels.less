@@ -16,15 +16,24 @@ atom-panel, .tool-panel {
   background-color: @tool-panel-background-color;
 
   &.bottom, &.panel-bottom {
-    border-top: 1px solid @tool-panel-border-color;
-    box-shadow: inset 0 1px 0 @background-color-highlight;
+    box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+    border-top: 1px solid #121212;
+    border-width: 4px;
+  }
+
+  &.top, &.panel-top {
+    box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+    border-bottom: 1px solid #121212;
+    border-width: 4px;
   }
 
   &.left, &.panel-left {
+    box-shadow: rgba(255, 255, 255, 0.07) 1px 0 0 inset;
     border-right: 1px solid @tool-panel-border-color;
   }
 
   &.right, &.panel-right {
+    box-shadow: rgba(255, 255, 255, 0.07) 1px 0 0 inset;
     border-left: 1px solid @tool-panel-border-color;
   }
 }
@@ -59,4 +68,8 @@ atom-panel, .tool-panel {
     @text: lighten(@text-color, 10%);
     .btn-background(@bg, @hover, @selected, @text);
   }
+}
+
+.status-bar {
+  font-size: @font-size - 1px;
 }

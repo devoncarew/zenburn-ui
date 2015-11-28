@@ -4,7 +4,12 @@
 .btn-background (@color, @hover-color, @selected-color, @text-color) {
   color: @text-color;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(@color, darken(@color, 5%));
+  background-image: linear-gradient(to bottom, @button-background-color, #333);
+  border: 1px solid @button-border-color;
+  border-radius: 2px;
+  font-size: 12pt;
+  line-height: 18px;
+  height: 24px;
 
   &:focus {
     color: @text-color;
@@ -53,4 +58,9 @@
 .caret {
   border-top: 5px solid #fff;
   margin-top: -1px;
+}
+
+.btn-group > .btn:first-child,
+.btn-group > .btn:last-child {
+  border: 1px solid @button-border-color;
 }
