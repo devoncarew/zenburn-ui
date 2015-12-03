@@ -2,7 +2,7 @@
 
 A Zenburn Atom UI theme.
 
-![screen shot](https://github.com/devoncarew/zenburn-ui/blob/master/docs/screenshot.png)
+![screen shot](https://raw.githubusercontent.com/devoncarew/zenburn-ui/master/docs/screenshot.png)
 
 ## Attributions
 
