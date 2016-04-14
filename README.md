@@ -1,4 +1,4 @@
-# Atom Zenburn UI theme
+# Atom Zenburn UI Theme
 
 A Zenburn Atom UI theme.
 
@@ -8,4 +8,6 @@ A Zenburn Atom UI theme.
 
 This repo was originally forked from the Atom Dart UI theme (atom-dark-ui).
 
-See also the Zenburn [syntax](https://atom.io/themes/zenburn) theme.
+## See also
+
+The Zenburn [syntax](https://atom.io/themes/zenburn) theme.
