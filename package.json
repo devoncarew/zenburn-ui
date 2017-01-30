@@ -1,7 +1,7 @@
 {
   "name": "zenburn-ui",
   "theme": "ui",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A Zenburn Atom UI theme",
   "license": "BSD-3-Clause",
   "repository": "https://github.com/devoncarew/zenburn-ui",
