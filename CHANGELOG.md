@@ -1,3 +1,6 @@
+## 0.2.1
+- some css updates for the dock resize handles
+
 ## 0.2.0
 - updates for shadow DOM changes
 
